@@ -1,0 +1,27 @@
+{
+  "name": "macup-command-line-tools",
+  "version": "0.0.0",
+  "description": "macup module that installs xcode command line tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeerlend/macup-command-line-tools.git"
+  },
+  "keywords": [
+    "macup",
+    "macup-module"
+  ],
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  },
+  "author": "Erlend Mongstad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eeerlend/macup-command-line-tools/issues"
+  },
+  "homepage": "https://github.com/eeerlend/macup-command-line-tools#readme"
+}
