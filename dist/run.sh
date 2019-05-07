@@ -1,11 +1,6 @@
 #!/bin/bash
 
-# Source config files
-# . $(dirname $0)/config.sh
-# . $1
-. ./src/bootstrap.sh
-
-# Install xcode tools
+# Install xcode command line tools
 
 #
 # To check if xcode command line tools exist, xcode-select -p will print the 
@@ -28,5 +23,5 @@ if [ "$XCODE_EXIST" == "2" ]; then
 		sleep 1
 	done
 else
-	report_from_package "XCode already installed - skipping installation."
+	report_from_package "xcode already installed - skipping installation."
 fi
