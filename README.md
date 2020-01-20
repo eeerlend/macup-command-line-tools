@@ -6,7 +6,7 @@ A [macup](https://github.com/eeerlend/macup-builder) module that installs xcode 
 Run the following command to add it to your repo
 
 ```bash
-npm install eeerlend/macup-command-line-tools --save
+npm install eeerlend/macup-command-line-tools
 ```
 
 ## Configuration
